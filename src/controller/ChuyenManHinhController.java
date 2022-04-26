@@ -5,12 +5,13 @@
 package controller;
 
 import bean.DanhMucBean;
-import btgk_qlbanthietbidientu.QL_HoaDon_JPanelForm;
-import btgk_qlbanthietbidientu.QL_KhachHang_JPanelForm;
-import btgk_qlbanthietbidientu.QL_KhuyenMai_JPanelForm;
-import btgk_qlbanthietbidientu.QL_NhanVien_JPanelForm;
-import btgk_qlbanthietbidientu.QL_SanPham_JPanelForm;
-import btgk_qlbanthietbidientu.TrangChu_JPanelForm;
+import btgk_qlbanthietbicongnghe_nhomkln.QL_HoaDon_JPanelForm;
+import btgk_qlbanthietbicongnghe_nhomkln.QL_KhachHang_JPanelForm;
+import btgk_qlbanthietbicongnghe_nhomkln.QL_KhuyenMai_JPanelForm;
+import btgk_qlbanthietbicongnghe_nhomkln.QL_NhanVien_JPanelForm;
+import btgk_qlbanthietbicongnghe_nhomkln.QL_SanPham_JPanelForm;
+import btgk_qlbanthietbicongnghe_nhomkln.ThongKe_JPanelFrom;
+import btgk_qlbanthietbicongnghe_nhomkln.TrangChu_JPanelForm;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.event.MouseEvent;
@@ -90,6 +91,9 @@ public class ChuyenManHinhController {
                     break;
                 case "QuanLyHoaDon":
                     node = new QL_HoaDon_JPanelForm();
+                    break;
+                 case "ThongKe":
+                    node = new ThongKe_JPanelFrom();
                     break;
 
             }

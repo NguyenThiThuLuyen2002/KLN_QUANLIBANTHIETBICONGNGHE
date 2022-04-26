@@ -2,18 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
  */
-package btgk_qlbanthietbidientu;
+package btgk_qlbanthietbicongnghe_nhomkln;
 
 /**
  *
  * @author DELL
  */
-public class QL_KhuyenMai_JPanelForm extends javax.swing.JPanel {
+public class QL_SanPham_JPanelForm extends javax.swing.JPanel {
 
     /**
-     * Creates new form QL_KhuyenMai_JPanelForm
+     * Creates new form QL_SanPham_JPanelForm
      */
-    public QL_KhuyenMai_JPanelForm() {
+    public QL_SanPham_JPanelForm() {
         initComponents();
     }
 
@@ -28,23 +28,23 @@ public class QL_KhuyenMai_JPanelForm extends javax.swing.JPanel {
 
         jLabel1 = new javax.swing.JLabel();
 
-        jLabel1.setText("quanly khuyen mai");
+        jLabel1.setText("quan ly san pham");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(68, 68, 68)
+                .addGap(120, 120, 120)
                 .addComponent(jLabel1)
-                .addContainerGap(234, Short.MAX_VALUE))
+                .addContainerGap(187, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(127, 127, 127)
+                .addGap(122, 122, 122)
                 .addComponent(jLabel1)
-                .addContainerGap(157, Short.MAX_VALUE))
+                .addContainerGap(162, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
