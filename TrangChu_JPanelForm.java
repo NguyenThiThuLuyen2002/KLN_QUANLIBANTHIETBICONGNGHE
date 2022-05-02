@@ -31,8 +31,10 @@ public class TrangChu_JPanelForm extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
-        setPreferredSize(new java.awt.Dimension(800, 600));
+        setPreferredSize(new java.awt.Dimension(856, 550));
 
+        jPanel1.setBackground(new java.awt.Color(0, 39, 63));
+        jPanel1.setPreferredSize(new java.awt.Dimension(880, 538));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
@@ -45,16 +47,14 @@ public class TrangChu_JPanelForm extends javax.swing.JPanel {
         jLabel1.setText(" - Kết nối với tương lai");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 460, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\TAILIEUHOCKI\\HK4\\New folder\\BTGK_QLBanThietBiDienTu\\src\\btgk_qlbanthietbiCongNghe\\6123.jpg_wh860.jpg")); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 880, 630));
+        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\TAILIEUHOCKI\\HK4\\New folder\\BTGK_QLBanThietBiCONGNGHE_KLN\\src\\btgk_qlbanthietbiCongNghe\\6123.jpg_wh860.jpg")); // NOI18N
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 870, 620));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 869, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 875, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
