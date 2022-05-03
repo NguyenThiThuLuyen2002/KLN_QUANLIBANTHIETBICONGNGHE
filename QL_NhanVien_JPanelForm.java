@@ -29,46 +29,46 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
 
         jPanel4 = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        jPanel2_239 = new javax.swing.JPanel();
+        jLabel1_239 = new javax.swing.JLabel();
+        jLabel2_239 = new javax.swing.JLabel();
+        jLabel3_239 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
-        jRadioButton4 = new javax.swing.JRadioButton();
-        jTextField4 = new javax.swing.JTextField();
-        jTextField5 = new javax.swing.JTextField();
-        jTextField6 = new javax.swing.JTextField();
+        jTextField1_239 = new javax.swing.JTextField();
+        jTextField2_239 = new javax.swing.JTextField();
+        jTextField3_239 = new javax.swing.JTextField();
+        jComboBox1_239 = new javax.swing.JComboBox<>();
+        jLabel5_239 = new javax.swing.JLabel();
+        jLabel6_239 = new javax.swing.JLabel();
+        jLabel7_239 = new javax.swing.JLabel();
+        jLabel8_239 = new javax.swing.JLabel();
+        jLabel9_239 = new javax.swing.JLabel();
+        jRadioButton1_239 = new javax.swing.JRadioButton();
+        jRadioButton2_239 = new javax.swing.JRadioButton();
+        jRadioButton3_239 = new javax.swing.JRadioButton();
+        jRadioButton4_239 = new javax.swing.JRadioButton();
+        jTextField4_239 = new javax.swing.JTextField();
+        jTextField5_239 = new javax.swing.JTextField();
+        jTextField6_239 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        jButton2_239 = new javax.swing.JButton();
+        jButton3_239 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
-        jLabel12 = new javax.swing.JLabel();
-        jComboBox4 = new javax.swing.JComboBox<>();
-        jLabel10 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
+        jLabel12_239 = new javax.swing.JLabel();
+        jComboBox4_239 = new javax.swing.JComboBox<>();
+        jLabel10_239 = new javax.swing.JLabel();
+        jComboBox2_239 = new javax.swing.JComboBox<>();
         jPanel6 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        jTable1_239 = new javax.swing.JTable();
 
         setBackground(new java.awt.Color(255, 235, 193));
 
-        jPanel2.setBackground(new java.awt.Color(33, 85, 205));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Thiết lập thông tin nhân viên"));
-        jPanel2.setLayout(new java.awt.GridBagLayout());
+        jPanel2_239.setBackground(new java.awt.Color(33, 85, 205));
+        jPanel2_239.setBorder(javax.swing.BorderFactory.createTitledBorder("Thiết lập thông tin nhân viên"));
+        jPanel2_239.setLayout(new java.awt.GridBagLayout());
 
-        jLabel1.setText("Mã NV ");
+        jLabel1_239.setText("Mã NV ");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -76,9 +76,9 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(42, 48, 0, 0);
-        jPanel2.add(jLabel1, gridBagConstraints);
+        jPanel2_239.add(jLabel1_239, gridBagConstraints);
 
-        jLabel2.setText("Tên NV");
+        jLabel2_239.setText("Tên NV");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 3;
@@ -86,16 +86,16 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.gridheight = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(21, 48, 0, 0);
-        jPanel2.add(jLabel2, gridBagConstraints);
+        jPanel2_239.add(jLabel2_239, gridBagConstraints);
 
-        jLabel3.setText("Vai trò");
+        jLabel3_239.setText("Vai trò");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 7;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(9, 48, 0, 0);
-        jPanel2.add(jLabel3, gridBagConstraints);
+        jPanel2_239.add(jLabel3_239, gridBagConstraints);
 
         jLabel4.setText("Địa chỉ");
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -104,7 +104,7 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.gridheight = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(3, 47, 0, 0);
-        jPanel2.add(jLabel4, gridBagConstraints);
+        jPanel2_239.add(jLabel4, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 0;
@@ -112,7 +112,7 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.ipadx = 180;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(39, 38, 0, 0);
-        jPanel2.add(jTextField1, gridBagConstraints);
+        jPanel2_239.add(jTextField1_239, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 3;
@@ -120,7 +120,7 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.ipadx = 180;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(18, 38, 0, 0);
-        jPanel2.add(jTextField2, gridBagConstraints);
+        jPanel2_239.add(jTextField2_239, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 11;
@@ -128,9 +128,14 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.ipadx = 180;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(0, 38, 0, 0);
-        jPanel2.add(jTextField3, gridBagConstraints);
+        jPanel2_239.add(jTextField3_239, gridBagConstraints);
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1_239.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1_239.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1_239ActionPerformed(evt);
+            }
+        });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 7;
@@ -138,9 +143,9 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.ipadx = 129;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 38, 0, 0);
-        jPanel2.add(jComboBox1, gridBagConstraints);
+        jPanel2_239.add(jComboBox1_239, gridBagConstraints);
 
-        jLabel5.setText("Điện thoại");
+        jLabel5_239.setText("Điện thoại");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 6;
         gridBagConstraints.gridy = 0;
@@ -148,35 +153,35 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(42, 62, 0, 0);
-        jPanel2.add(jLabel5, gridBagConstraints);
+        jPanel2_239.add(jLabel5_239, gridBagConstraints);
 
-        jLabel6.setText("Ngày sinh");
+        jLabel6_239.setText("Ngày sinh");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 6;
         gridBagConstraints.gridy = 3;
         gridBagConstraints.gridwidth = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(15, 62, 0, 0);
-        jPanel2.add(jLabel6, gridBagConstraints);
+        jPanel2_239.add(jLabel6_239, gridBagConstraints);
 
-        jLabel7.setText("Email");
+        jLabel7_239.setText("Email");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 6;
         gridBagConstraints.gridy = 7;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 62, 0, 0);
-        jPanel2.add(jLabel7, gridBagConstraints);
+        jPanel2_239.add(jLabel7_239, gridBagConstraints);
 
-        jLabel8.setText("Giới tính");
+        jLabel8_239.setText("Giới tính");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 6;
         gridBagConstraints.gridy = 10;
         gridBagConstraints.gridwidth = 3;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(6, 62, 0, 0);
-        jPanel2.add(jLabel8, gridBagConstraints);
+        jPanel2_239.add(jLabel8_239, gridBagConstraints);
 
-        jLabel9.setText("Trạng thái");
+        jLabel9_239.setText("Trạng thái");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 6;
         gridBagConstraints.gridy = 13;
@@ -184,9 +189,9 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.gridheight = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(4, 62, 0, 0);
-        jPanel2.add(jLabel9, gridBagConstraints);
+        jPanel2_239.add(jLabel9_239, gridBagConstraints);
 
-        jRadioButton1.setText("Đang làm việc");
+        jRadioButton1_239.setText("Đang làm việc");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 12;
         gridBagConstraints.gridy = 13;
@@ -194,9 +199,9 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.gridheight = 7;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(0, 40, 0, 0);
-        jPanel2.add(jRadioButton1, gridBagConstraints);
+        jPanel2_239.add(jRadioButton1_239, gridBagConstraints);
 
-        jRadioButton2.setText("Nghỉ việc");
+        jRadioButton2_239.setText("Nghỉ việc");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 14;
         gridBagConstraints.gridy = 13;
@@ -204,25 +209,25 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.gridheight = 7;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(0, 18, 0, 0);
-        jPanel2.add(jRadioButton2, gridBagConstraints);
+        jPanel2_239.add(jRadioButton2_239, gridBagConstraints);
 
-        jRadioButton3.setText("Nam");
+        jRadioButton3_239.setText("Nam");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 12;
         gridBagConstraints.gridy = 10;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(2, 40, 0, 0);
-        jPanel2.add(jRadioButton3, gridBagConstraints);
+        jPanel2_239.add(jRadioButton3_239, gridBagConstraints);
 
-        jRadioButton4.setText("Nữ");
+        jRadioButton4_239.setText("Nữ");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 14;
         gridBagConstraints.gridy = 10;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(2, 18, 0, 0);
-        jPanel2.add(jRadioButton4, gridBagConstraints);
+        jPanel2_239.add(jRadioButton4_239, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 12;
         gridBagConstraints.gridy = 7;
@@ -230,7 +235,7 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.ipadx = 188;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(0, 40, 0, 117);
-        jPanel2.add(jTextField4, gridBagConstraints);
+        jPanel2_239.add(jTextField4_239, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 12;
         gridBagConstraints.gridy = 3;
@@ -239,7 +244,7 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.ipadx = 188;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(12, 40, 0, 117);
-        jPanel2.add(jTextField5, gridBagConstraints);
+        jPanel2_239.add(jTextField5_239, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 12;
         gridBagConstraints.gridy = 0;
@@ -247,7 +252,7 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.ipadx = 188;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(33, 40, 0, 117);
-        jPanel2.add(jTextField6, gridBagConstraints);
+        jPanel2_239.add(jTextField6_239, gridBagConstraints);
 
         jButton1.setText("Thêm");
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -257,36 +262,36 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.ipadx = 9;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(23, 180, 47, 0);
-        jPanel2.add(jButton1, gridBagConstraints);
+        jPanel2_239.add(jButton1, gridBagConstraints);
 
-        jButton2.setText("Sửa");
+        jButton2_239.setText("Sửa");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 20;
         gridBagConstraints.ipadx = 16;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(23, 18, 47, 0);
-        jPanel2.add(jButton2, gridBagConstraints);
+        jPanel2_239.add(jButton2_239, gridBagConstraints);
 
-        jButton3.setText("Làm mới");
+        jButton3_239.setText("Làm mới");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 6;
         gridBagConstraints.gridy = 20;
         gridBagConstraints.gridwidth = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(23, 18, 47, 0);
-        jPanel2.add(jButton3, gridBagConstraints);
+        jPanel2_239.add(jButton3_239, gridBagConstraints);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+            .addComponent(jPanel2_239, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel2_239, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -294,7 +299,7 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Lọc"));
         jPanel3.setLayout(new java.awt.GridBagLayout());
 
-        jLabel12.setText("Lọc theo vai  trò");
+        jLabel12_239.setText("Lọc theo vai  trò");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -302,9 +307,9 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.ipady = 13;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(41, 87, 6, 0);
-        jPanel3.add(jLabel12, gridBagConstraints);
+        jPanel3.add(jLabel12_239, gridBagConstraints);
 
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox4_239.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;
@@ -312,17 +317,17 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.ipadx = 17;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(44, 35, 0, 0);
-        jPanel3.add(jComboBox4, gridBagConstraints);
+        jPanel3.add(jComboBox4_239, gridBagConstraints);
 
-        jLabel10.setText("Lọc theo giới tính");
+        jLabel10_239.setText("Lọc theo giới tính");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(47, 92, 0, 0);
-        jPanel3.add(jLabel10, gridBagConstraints);
+        jPanel3.add(jLabel10_239, gridBagConstraints);
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2_239.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 0;
@@ -330,11 +335,11 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
         gridBagConstraints.ipadx = 40;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(44, 32, 0, 300);
-        jPanel3.add(jComboBox2, gridBagConstraints);
+        jPanel3.add(jComboBox2_239, gridBagConstraints);
 
         jPanel6.setBackground(new java.awt.Color(121, 218, 232));
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        jTable1_239.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null, null, null},
@@ -344,7 +349,7 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
                 "Mã NV", "Mật khẩu", "Tên NV", "Vai trò", "Địa chỉ", "Điện thoại", "Ngảy sinh", "Giới tính", "Email", "Trạng thái"
             }
         ));
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(jTable1_239);
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -371,7 +376,7 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 822, Short.MAX_VALUE)
                     .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         jPanel4Layout.setVerticalGroup(
@@ -392,53 +397,57 @@ public class QL_NhanVien_JPanelForm extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 881, Short.MAX_VALUE)
+                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 524, Short.MAX_VALUE)
                 .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jComboBox1_239ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1_239ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox1_239ActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JButton jButton2_239;
+    private javax.swing.JButton jButton3_239;
+    private javax.swing.JComboBox<String> jComboBox1_239;
+    private javax.swing.JComboBox<String> jComboBox2_239;
+    private javax.swing.JComboBox<String> jComboBox4_239;
+    private javax.swing.JLabel jLabel10_239;
+    private javax.swing.JLabel jLabel12_239;
+    private javax.swing.JLabel jLabel1_239;
+    private javax.swing.JLabel jLabel2_239;
+    private javax.swing.JLabel jLabel3_239;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel5_239;
+    private javax.swing.JLabel jLabel6_239;
+    private javax.swing.JLabel jLabel7_239;
+    private javax.swing.JLabel jLabel8_239;
+    private javax.swing.JLabel jLabel9_239;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel2_239;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel6;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton3;
-    private javax.swing.JRadioButton jRadioButton4;
+    private javax.swing.JRadioButton jRadioButton1_239;
+    private javax.swing.JRadioButton jRadioButton2_239;
+    private javax.swing.JRadioButton jRadioButton3_239;
+    private javax.swing.JRadioButton jRadioButton4_239;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
-    private javax.swing.JTextField jTextField5;
-    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTable jTable1_239;
+    private javax.swing.JTextField jTextField1_239;
+    private javax.swing.JTextField jTextField2_239;
+    private javax.swing.JTextField jTextField3_239;
+    private javax.swing.JTextField jTextField4_239;
+    private javax.swing.JTextField jTextField5_239;
+    private javax.swing.JTextField jTextField6_239;
     // End of variables declaration//GEN-END:variables
 }
