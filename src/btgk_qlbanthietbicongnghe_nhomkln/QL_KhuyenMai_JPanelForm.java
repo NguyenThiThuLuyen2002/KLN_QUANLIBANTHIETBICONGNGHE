@@ -66,6 +66,8 @@ public class QL_KhuyenMai_JPanelForm extends javax.swing.JPanel {
         jpnDSKhuyenMai_212 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
         tbDSKM_212 = new javax.swing.JTable();
+        txtKhuyenMai = new javax.swing.JTextField();
+        btnTimKiem_212 = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(255, 204, 204));
         setPreferredSize(new java.awt.Dimension(836, 548));
@@ -244,20 +246,34 @@ public class QL_KhuyenMai_JPanelForm extends javax.swing.JPanel {
         ));
         jScrollPane3.setViewportView(tbDSKM_212);
 
+        btnTimKiem_212.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/search.png"))); // NOI18N
+        btnTimKiem_212.setText("Tìm kiếm");
+
         javax.swing.GroupLayout jpnDSKhuyenMai_212Layout = new javax.swing.GroupLayout(jpnDSKhuyenMai_212);
         jpnDSKhuyenMai_212.setLayout(jpnDSKhuyenMai_212Layout);
         jpnDSKhuyenMai_212Layout.setHorizontalGroup(
             jpnDSKhuyenMai_212Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpnDSKhuyenMai_212Layout.createSequentialGroup()
+                .addGap(120, 120, 120)
+                .addComponent(txtKhuyenMai, javax.swing.GroupLayout.PREFERRED_SIZE, 399, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(btnTimKiem_212)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpnDSKhuyenMai_212Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane3)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 802, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jpnDSKhuyenMai_212Layout.setVerticalGroup(
             jpnDSKhuyenMai_212Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpnDSKhuyenMai_212Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpnDSKhuyenMai_212Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jpnDSKhuyenMai_212Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtKhuyenMai, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnTimKiem_212, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 9, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -267,18 +283,21 @@ public class QL_KhuyenMai_JPanelForm extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jpnCTKuyenMai_212, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jpnDSKhuyenMai_212, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(21, 21, 21))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jpnCTKuyenMai_212, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(21, 21, 21))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jpnDSKhuyenMai_212, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addContainerGap())))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jpnCTKuyenMai_212, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jpnDSKhuyenMai_212, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -286,6 +305,7 @@ public class QL_KhuyenMai_JPanelForm extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnLuu_212;
     private javax.swing.JButton btnRefresh_212;
+    private javax.swing.JButton btnTimKiem_212;
     private javax.swing.JComboBox<String> cbxMucGiamGia_212;
     private com.toedter.calendar.JDateChooser dateNgayBD_212;
     private com.toedter.calendar.JDateChooser dateNgayKT_212;
@@ -304,6 +324,7 @@ public class QL_KhuyenMai_JPanelForm extends javax.swing.JPanel {
     private javax.swing.JTable tbDSKM_212;
     private javax.swing.JTable tbSanPham_212;
     private javax.swing.JTextArea txtAreaMoTa_212;
+    private javax.swing.JTextField txtKhuyenMai;
     private javax.swing.JTextField txtTenCTKM_212;
     // End of variables declaration//GEN-END:variables
 }
