@@ -67,6 +67,7 @@ public class QL_KhuyenMai_JPanelForm extends javax.swing.JPanel {
         jScrollPane3 = new javax.swing.JScrollPane();
         tbDSKM_212 = new javax.swing.JTable();
 
+        setBackground(new java.awt.Color(255, 204, 204));
         setPreferredSize(new java.awt.Dimension(836, 548));
 
         jpnCTKuyenMai_212.setBorder(javax.swing.BorderFactory.createTitledBorder("Chương trình khuyến mãi"));
