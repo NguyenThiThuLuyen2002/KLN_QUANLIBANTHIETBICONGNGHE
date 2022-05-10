@@ -27,47 +27,45 @@ public class TrangChu_JPanelForm extends javax.swing.JPanel {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2_229 = new javax.swing.JLabel();
+        jLabel1_229 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
-        setPreferredSize(new java.awt.Dimension(856, 550));
+        setPreferredSize(new java.awt.Dimension(856, 600));
 
-        jPanel1.setBackground(new java.awt.Color(0, 39, 63));
-        jPanel1.setPreferredSize(new java.awt.Dimension(880, 538));
+        jPanel1.setBackground(new java.awt.Color(1, 64, 85));
+        jPanel1.setPreferredSize(new java.awt.Dimension(900, 600));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Thiết bị công nghệ ");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 260, 360, 80));
+        jLabel2_229.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
+        jLabel2_229.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2_229.setText("Thiết bị công nghệ ");
+        jPanel1.add(jLabel2_229, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 260, 360, 80));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText(" - Kết nối với tương lai");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 460, -1));
+        jLabel1_229.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
+        jLabel1_229.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1_229.setText(" - Kết nối với tương lai");
+        jPanel1.add(jLabel1_229, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 340, 460, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\TAILIEUHOCKI\\HK4\\New folder\\BTGK_QLBanThietBiCONGNGHE_KLN\\src\\btgk_qlbanthietbiCongNghe\\6123.jpg_wh860.jpg")); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 870, 620));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/6123.jpg_wh860.jpg"))); // NOI18N
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 600));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 875, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 856, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 623, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel1_229;
+    private javax.swing.JLabel jLabel2_229;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
